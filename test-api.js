@@ -1,12 +1,12 @@
 const http = require('http');
 
-// Configuración - Cambia estos valores según sea necesario
+// Configuración - Apuntando a la instancia EC2
 const config = {
-  host: 'localhost',  // Cambia a la IP de tu EC2 cuando esté en producción
+  host: '34.239.144.185',  // IP de tu instancia EC2
   port: 3000,
   path: '/saludo',
   method: 'GET',
-  timeout: 5000  // 5 segundos de timeout
+  timeout: 10000  // Aumentado a 10 segundos para pruebas en la nube
 };
 
 console.log(`\n🔍 Probando API REST en: http://${config.host}:${config.port}${config.path}\n`);

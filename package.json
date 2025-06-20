@@ -1,0 +1,20 @@
+{
+  "name": "saludo-service",
+  "version": "1.0.0",
+  "description": "Microservicio REST de ejemplo que responde con un saludo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["api", "rest", "express", "microservicio"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

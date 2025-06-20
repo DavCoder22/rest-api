@@ -1,0 +1,31 @@
+# Archivos de estado de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Archivos de bloqueo
+.terraform.lock.hcl
+
+# Archivos de variables con información sensible
+*.tfvars
+*.tfvars.json
+
+# Archivos de sobreescritura de variables
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de configuración de CLI
+.terraformrc
+terraform.rc
+
+# Archivos de entorno
+.env
+
+# Archivos de llaves SSH
+*.pem
+*.pem.pub
+
+# Archivos de log
+*.log
